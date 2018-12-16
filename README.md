@@ -4,7 +4,7 @@ This project implements a "rustic" library for parsing json/json in postgreSQL a
 
 ## How to implement it in your project
 
-Donwload the nuget from [nuget.org]{https://www.nuget.org/packages/PostgreJsonExtensions/} and then in your code use it as follow example
+Donwload the nuget from https://www.nuget.org/packages/PostgreJsonExtensions/ and then in your code use it as follow example
 
     _context.Test.JsonWhere<Test, Jason>("json", x => x.Num > 100 && x.Num < 500 && x.Fecha.Date >= DateTime.MinValue && x.Logico)
                  .JsonWhere<Test, Jason>("json2", x => x.Num > 100 && x.Num < 500 && x.Fecha.Date >= DateTime.MinValue && x.Logico)
