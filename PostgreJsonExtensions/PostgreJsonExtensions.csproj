@@ -5,6 +5,8 @@
     <RepositoryUrl>https://github.com/fpanaccia/PostgreJsonExtensions.NetCore</RepositoryUrl>
     <Description>This project implements a "rustic" library for parsing json/json in postgresql and not in runtime for ef core.
 For more information go to https://github.com/fpanaccia/PostgreJsonExtensions.NetCore</Description>
+    <Version>1.0.1</Version>
+    <PackageLicenseUrl>https://github.com/fpanaccia/PostgreJsonExtensions.NetCore/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
